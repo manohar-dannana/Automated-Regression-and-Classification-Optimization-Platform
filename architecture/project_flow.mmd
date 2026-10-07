@@ -1,0 +1,11 @@
+flowchart LR
+    dataset[Dataset] --> loader[Dataset Loader]
+    loader --> preprocessing[Leakage-safe Preprocessing]
+    preprocessing --> task{Regression or Classification}
+    task --> selection[Layer 1<br/>Algorithm Selection]
+    selection --> selected[Selected Algorithm]
+    selected --> optimization[Layer 2<br/>Hyperparameter Optimization]
+    optimization --> configuration[Best Configuration]
+    configuration --> final[Final Model]
+    final --> evaluation[Evaluation and Experiment Log]
+    evaluation --> report[CSV Report / Dashboard]

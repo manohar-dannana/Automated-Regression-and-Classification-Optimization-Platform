@@ -1,0 +1,7 @@
+benchmark,task,target,feature_condition,candidate_models,primary_metrics,selection_stage,optimization_stage
+Ames Housing,regression,SalePrice,All features except Id,"Ridge; Random Forest; XGBoost; LightGBM","RMSE; log-RMSE; MAE; R2","Cross-validation ranking","TPE; Random Search; Bayesian; Genetic"
+Student Performance,regression,G3,"With G1 and G2","Linear Regression; Random Forest; SVR; XGBoost; LightGBM","RMSE; MAE; R2","Cross-validation ranking","TPE; Random Search; Bayesian; Genetic"
+Student Performance,regression,G3,"Without G1 and G2","Linear Regression; Random Forest; SVR; XGBoost; LightGBM","RMSE; MAE; R2","Cross-validation ranking","TPE; Random Search; Bayesian; Genetic"
+Student Performance,classification,G3 >= 10,"With G1 and G2","Logistic Regression; Random Forest; SVM; XGBoost; LightGBM","Accuracy; F1; ROC-AUC","Cross-validation ranking","TPE; Random Search; Bayesian; Genetic"
+Student Performance,classification,G3 >= 10,"Without G1 and G2","Logistic Regression; Random Forest; SVM; XGBoost; LightGBM","Accuracy; F1; ROC-AUC","Cross-validation ranking","TPE; Random Search; Bayesian; Genetic"
+Telco Customer Churn,classification,Churn,"All cleaned features except customerID","Logistic Regression; Random Forest; SVM; XGBoost; LightGBM","Accuracy; F1; ROC-AUC","Cross-validation ranking","TPE; Random Search; Bayesian; Genetic"

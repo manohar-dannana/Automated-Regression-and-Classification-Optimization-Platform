@@ -1,0 +1,18 @@
+.DS_Store
+.idea/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Generated experiment outputs
+baseline_results.csv
+
+# Local dataset downloads
+train.csv
+test.csv
+student-mat.csv
+student-por.csv

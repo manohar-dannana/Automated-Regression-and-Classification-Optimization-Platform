@@ -1,0 +1,2 @@
+algorithm,n_estimators,max_depth,min_samples_split,min_samples_leaf,max_features,rmse,mae,r2,number_of_trials,optimization_time_seconds,total_time_seconds,best_objective_value
+Random Forest,179,8,2,4,1.0,1.2078947758093022,0.7119987858591401,0.8503843023147306,30,19.34240645801765,19.598976458015386,1.2987464275373473
